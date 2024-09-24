@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import Tag from '../components/Tag.vue';
+import Tag from './Tag.vue';
 
 export default {
   components: { Tag },
@@ -23,7 +23,7 @@ export default {
     </ul>
 
     <p v-else class="paragrafo lista-vazia">
-      <img src="..\assets\images\icones\lista-vazia.svg" alt="Ícone de pesquisa">
+      <img src="../assets/imagens/icones/lista-vazia.svg" alt="Ícone de pesquisa">
       Sua lista está vazia, selecione ingredientes para iniciar.
     </p>
   </section>

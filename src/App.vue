@@ -5,7 +5,7 @@ import Rodape from './components/Rodape.vue';
 
 export default {
   components: { Banner, ConteudoPrincipal, Rodape }
-} 
+}
 </script>
 
 <template>
@@ -13,5 +13,3 @@ export default {
   <ConteudoPrincipal />
   <Rodape />
 </template>
-
-<style scoped></style>
